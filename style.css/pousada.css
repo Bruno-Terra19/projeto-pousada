@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+#banner{
+    background-image: url("../images/banner_principal.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.logo img{
+    width: 420px; /* width indicado para telas maiores*/
+    max-width: 90%; /* max-width para adaptar em telas menores*/
+    margin-bottom: 60px;
+}
+
+#btReserve{
+    background-color: #ff6a00;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer; /* altera o modelo do cursor*/
+    transition: 0.3s;
+}
+
+#btReserve:hover {
+    background-color: #e85d00;
+}
+
+#suites{
+    text-align: center;
+    margin: 80px auto;
+}
+
+#suites h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: #111;
+}
+
+.suite-premium {
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 12px;
+    color: rgb(255, 94, 0);
+}
+
+.suite-essencial {
+    margin-top: 20px;
+}
+
+.suite-grandLuxe {
+    margin-top: 20px;
+}
+
+#suites h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: rgb(255, 94, 0);
+  margin: auto; 
+  margin-top: 12px;
+}
+
+.suites-container h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 0 10px; /* top | left & right | bottom */
+    color: #111;
+}
+
+.suites-container p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.suites-container {
+    max-width: 1200px;
+    margin: 0 auto; /* "auto" o nevegador calcula automaticamente */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.suites-container > div {
+    width: 300px;
+}
+
+.suites-container img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+#sobre {
+    text-align: center;
+    margin: 80px auto;
+}
+
+.sobre-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.coracao {
+    display: flex;
+}
+
+.coracao img {
+    width: 485px;
+    margin-left: 110px;
+    border-radius: 12px;
+}
+
+.descricao-1 {
+    margin: 0 90px 50px;
+    text-align: start;
+}
+
+.descricao-1 p {
+    font-size: large;
+}
+
+.descricao-1 h1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.descricao-1::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: rgb(255, 94, 0);
+  margin-bottom: 12px; 
+}
+
+.conforto {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.conforto img {
+    width: 485px;
+    margin-right: 110px;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+.descricao-2 {
+    margin-left: 110px;
+    margin-right: 80px;
+    text-align: start;
+    margin-top: 50px;
+}
+
+.descricao-2 h1 {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.descricao-2 p {
+    font-size: large;
+}
+
+.descricao-2::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: rgb(255, 94, 0);
+  margin-bottom: 12px; 
+}
