@@ -197,3 +197,8 @@ body {
   background-color: rgb(255, 94, 0);
   margin-bottom: 12px; 
 }
+
+.depoimentos {
+    display: flex;
+    text-align: center;
+}
